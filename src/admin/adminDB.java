@@ -66,6 +66,7 @@ public class adminDB extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -133,8 +134,8 @@ public class adminDB extends javax.swing.JFrame {
         mbg.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 90, -1));
 
         jLabel5.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
-        jLabel5.setText("DASHBOARD");
-        mbg.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 110, 30));
+        jLabel5.setText("ACCOUNT");
+        mbg.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 410, 90, 30));
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/backlogin1.png"))); // NOI18N
         jLabel8.setText("Logout");
@@ -149,6 +150,10 @@ public class adminDB extends javax.swing.JFrame {
             }
         });
         mbg.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 470, -1, -1));
+
+        jLabel9.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
+        jLabel9.setText("DASHBOARD");
+        mbg.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 110, 30));
 
         getContentPane().add(mbg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 510));
 
@@ -211,6 +216,7 @@ public class adminDB extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
